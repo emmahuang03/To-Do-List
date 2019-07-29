@@ -1,9 +1,9 @@
 * {
-  font-family: arial;
+  font-family: 'Comfortaa', cursive;
 }
 
 .sidenav {
-  border: 10px solid;
+
  display: flex;
  justify-content: center;
  height: 100%;
@@ -18,13 +18,13 @@
 }
 
 h3 {
-  border: 10px solid;
+
   display: flex;
   justify-content: center;
 }
 
 .sidebar {
-  border: 10px solid;
+
 }
 
 input{
@@ -43,17 +43,29 @@ input{
 }
 
 h1 {
- border: 10px solid;
+
  display: flex;
  justify-content: center;
  margin-left: 350px;
 }
 
-p {
-  border: 10px solid;
-  display: flex;
-  justify-content: center;
+section {
+  border: 10px;
+  background-color: #F7FCFF;
   margin-left: 350px;
+}
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+p {
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
 @media screen and (max-height: 450px) {
@@ -62,14 +74,14 @@ p {
 }
 
 body {
-  border: 10px solid;
+
  display: flex;
  flex-wrap: wrap;
  flex-direction: column;
  background-color: #D0E2F2;
 }
 
-/* .name {
+ .name {
   display: flex;
   justify-content: center;
 }
@@ -78,4 +90,3 @@ body {
    display: flex;
    justify-content: center;
  }
-*/
